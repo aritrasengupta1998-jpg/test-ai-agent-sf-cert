@@ -17,7 +17,7 @@ app.post("/chat", async (req, res) => {
     res.status(500).json({ error: "Error" });
   }
 });
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
+const PORT = 8080;
+app.listen(PORT, "0.0.0.0", () => {
   console.log(`Server running on PORT ${PORT}`);
 });
