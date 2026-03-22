@@ -4,8 +4,6 @@
     // File Layout
     // "rootDir": "./src",
     "outDir": "./dist",
-    "module": "commonjs",
-    "target": "es2017",
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
     "module": "commonjs",
